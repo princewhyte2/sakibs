@@ -1,5 +1,4 @@
 import { Button } from "./ui/button"
-import { HeroCards } from "./HeroCards"
 
 export const Hero = () => {
   return (

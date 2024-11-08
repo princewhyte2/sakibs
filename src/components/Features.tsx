@@ -1,4 +1,3 @@
-import { Badge } from "./ui/badge"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import image from "../assets/growth.png"
 import image3 from "../assets/reflecting.png"
@@ -49,17 +48,17 @@ const features: FeatureProps[] = [
   },
 ]
 
-const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
-]
+// const featureList: string[] = [
+//   "Dark/Light theme",
+//   "Reviews",
+//   "Features",
+//   "Pricing",
+//   "Contact form",
+//   "Our team",
+//   "Responsive design",
+//   "Newsletter",
+//   "Minimalist",
+// ]
 
 export const Features = () => {
   return (
