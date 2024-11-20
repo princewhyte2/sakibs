@@ -2,7 +2,7 @@ import { useState } from "react"
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu"
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 import { buttonVariants } from "./ui/button"
-import { Menu } from "lucide-react"
+import { ArrowDownToLine, Menu } from "lucide-react"
 import { ModeToggle } from "./mode-toggle"
 import { LogoIcon } from "./Icons"
 
@@ -83,6 +83,7 @@ export const Navbar = () => {
                       variant: "secondary",
                     })}`}
                   >
+                    <ArrowDownToLine className="w-5 h-5 mr-2" />
                     Company Profile
                   </a>
                 </nav>
@@ -114,7 +115,7 @@ export const Navbar = () => {
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
-              {/* <GitHubLogoIcon className="w-5 h-5 mr-2" /> */}
+              <ArrowDownToLine className="w-5 h-5 mr-2" />
               Company Profile
             </a>
 

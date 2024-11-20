@@ -1,7 +1,9 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card"
 import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons"
-import cubeLeg from "../assets/cube-leg.png"
-
+import green from "../assets/green1.jpg"
+import eng2 from "../assets/eng2.jpg"
+import eng1 from "../assets/eng1.jpg"
+import { Button } from "./ui/button"
 interface ServiceProps {
   title: string
   description: string
@@ -74,10 +76,14 @@ export const Services = () => {
                 </CardHeader>
               </Card>
             ))}
+            <Button>See more...</Button>
           </div>
         </div>
-
-        <img src={cubeLeg} className="w-[300px] md:w-[500px] lg:w-[600px] object-contain" alt="About services" />
+        <div>
+          <img src={green} className="w-[300px] md:w-[500px] lg:w-[600px] object-contain" alt="About services" />
+          <img src={eng2} className="w-[300px] md:w-[500px] lg:w-[600px] object-contain" alt="About services" />
+          <img src={eng1} className="w-[300px] md:w-[500px] lg:w-[600px] object-contain" alt="About services" />
+        </div>
       </div>
     </section>
   )

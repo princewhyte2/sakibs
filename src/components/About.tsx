@@ -1,11 +1,13 @@
-import pilot from "../assets/pilot.png"
+// import pilot from "../assets/pilot.png"
+
+import { Button } from "./ui/button"
 
 export const About = () => {
   return (
     <section id="about" className="container py-24 sm:py-32">
       <div className="py-12 border rounded-lg bg-muted/50">
         <div className="flex flex-col-reverse gap-8 px-6 md:flex-row md:gap-12">
-          <img src={pilot} alt="" className="w-[300px] object-contain rounded-lg" />
+          <img src={"/hero.webp"} alt="" className="w-[300px] object-contain rounded-lg" />
           <div className="flex flex-col justify-between bg-green-0">
             <div className="pb-6">
               <h2 className="text-3xl font-bold md:text-4xl">
@@ -23,6 +25,7 @@ export const About = () => {
                 skilled professionals, equipped with the latest tools and technologies, ensures that we deliver
                 top-notch services tailored to meet the unique needs of each client.
               </p>
+              <Button>Read more...</Button>
             </div>
 
             {/* <Statistics /> */}
